@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    tools:context=".NewsDetailsActivity">
+
+    <ImageView
+        android:id="@+id/newsImage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/image_news_1"/>
+
+    <TextView
+        android:id="@+id/newsTitleFullHorizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_width="383dp"
+        android:layout_height="100dp"
+        android:fontFamily="@font/formula1"
+        android:textColor="@color/black"
+        android:textSize="21dp"
+        android:text="Leclerc says Ferrari 'absolutely maximised' Azerbaijan weekend after claiming first podium of season"/>
+
+    <TextView
+        android:id="@+id/newsDateHorizontal"
+        android:layout_width="300dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/formula1regular"
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        android:text="30 Apr 2023"/>
+
+    <TextView
+        android:layout_marginStart="10dp"
+        android:textAlignment="inherit"
+        android:id="@+id/newsArticleFullHorizontal"
+        android:layout_width="383dp"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/formula1regular"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        android:lineSpacingExtra="8dp"
+        android:text="Charles Leclerc secured his first podium of the season in the 2023 Azerbaijan Grand Prix, after taking pole in the Sprint Shootout and pole for the Grand Prix, and while he said Ferrari got the best result possible, he admitted there was more to be done.
+\n\nThe Ferrari driver led the Red Bulls off the line on Sunday in Baku but Max Verstappen and Sergio Perez eventually breezed past Leclerc and it was Perez who won the race. Leclerc did however take his first podium – plus P2 in the Sprint – to take 22 points and jump up to sixth in the drivers’ standings."/>
+
+</LinearLayout>

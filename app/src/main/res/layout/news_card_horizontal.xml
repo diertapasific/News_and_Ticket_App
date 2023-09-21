@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+    app:cardCornerRadius="12dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:id="@+id/cardViewNewsHorizontal">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/imageNewsHorizontal"
+            android:scaleType="centerCrop"
+            android:src="@drawable/image_news_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:fontFamily="@font/formula1regular"
+            android:id="@+id/dateNewsHorizontal"
+            android:text="19 Jan 2023"
+            android:textColor="@color/white"
+            android:textAlignment="textStart"
+            android:textSize="10dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:paddingBottom="55dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:fontFamily="@font/formula1"
+            android:layout_marginLeft="10dp"
+            android:paddingBottom="10dp"
+            android:id="@+id/titleNewsHorizontal"
+            android:text="News Title"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textAlignment="textStart"
+            android:textSize="17.5dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="50dp"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    tools:context=".NewsDetailsActivity">
+
+    <ImageView
+        android:id="@+id/imageLayoutCircuit"
+        android:layout_gravity="center"
+        android:layout_width="383dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/sakhir_layout"/>
+
+    <LinearLayout
+        android:layout_width="1300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">\
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="300dp"
+            android:layout_marginStart="23dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/scheduleCityCircuit"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/formula1"
+                android:text="SAKHIR"
+                android:textColor="#da020e"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/scheduleCountryCircuit"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:fontFamily="@font/formula1"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="BAHRAIN"/>
+
+            <TextView
+                android:id="@+id/scheduleDateCircuit"
+                android:layout_width="300dp"
+                android:layout_height="15dp"
+                android:fontFamily="@font/formula1regular"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:text="03 - 05 Mar"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageFlagCircuit"
+            android:layout_height="match_parent"
+            android:layout_width="60dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/bahrain"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/priceCircuit"
+        android:layout_width="300dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="25dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:fontFamily="@font/formula1regular"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:text="IDR 2.500.000 ,-"/>
+
+    <EditText
+        android:id="@+id/totalAmountTicket"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/formula1regular"
+        android:textSize="15dp"
+        android:inputType="number"
+        android:hint="Enter tickets"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/buttonBuyTicket"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Buy Ticket"
+        android:fontFamily="@font/formula1"
+        android:textColor="@color/white"
+        android:backgroundTint="#da020e"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/formula1regular"
+        android:textSize="10dp"
+        android:layout_marginTop="80dp"
+        android:text="© 2003-2023 Formula One World Championship Limited"/>
+
+</LinearLayout>

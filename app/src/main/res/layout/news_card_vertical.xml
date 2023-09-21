@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="383dp"
+    android:layout_height="125dp"
+    app:cardCornerRadius="12dp"
+    android:layout_margin="10dp"
+    android:id="@+id/cardViewNewsHorizontal">
+
+    <ImageView
+        android:id="@+id/imageNewsVertical"
+        android:layout_width="150dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/image_news_1"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/dateNewsVertical"
+        android:text="19 Jan 2023"
+        android:textColor="#121212"
+        android:textAlignment="textStart"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/formula1regular"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="170dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/previewNewsVertical"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim lobortis scelerisque fermentum dui ..."
+        android:textColor="#121212"
+        android:textAlignment="textStart"
+        android:textSize="8.5dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginStart="170dp"
+        android:fontFamily="@font/formula1regular"
+        android:layout_width="200dp"
+        android:layout_height="45dp" />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/titleNewsVertical"
+        android:fontFamily="@font/formula1"
+        android:text="News Title"
+        android:textColor="#121212"
+        android:textAlignment="textStart"
+        android:textSize="12dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
+
+
+
+</androidx.cardview.widget.CardView>
